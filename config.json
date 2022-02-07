@@ -1,0 +1,192 @@
+{
+  "People": [
+    {
+      "First name": "Miroslav",
+      "Surname": "Mizrac",
+      "Birthday": "19.01.1989",
+      "Home phone": "+4915172850154",
+      "Street": "",
+      "Postal code": "",
+      "City": "",
+      "Organisation": "",
+      "Mobile devices": [
+        {
+          "Brand": "Samsung",
+          "Model": "SM-A505FN",
+          "nr of pics": 1,
+          "timeframe start": "2020-09-11T07:59:37.512752Z",
+          "timeframe end": "2021-12-09T16:11:32.512752Z",
+          "individual apks": 2,
+          "Serial number": "R58N225WNHP",
+          "Phone number": "+4915172850154",
+          "x coordinate": 500,
+          "y coordinate": 800,
+          "active times": {
+            "7:00": 600
+          },
+          "working time": {
+            "11:00": 600
+          },
+          "spare time": {
+            "22:00": 180
+          },
+          "weekend activity time": {
+            "12:00": 360
+          },
+          "Whatsapp token": "PERSON_A",
+          "Conversation partners": ["PERSON_B", "PERSON_C", "PERSON_D", "PERSON_E"],
+          "typing speed": 0.5,
+          "reading speed": 0.2,
+          "voice message probability": 0.05,
+          "attachment probability": 0.05,
+          "home location": {
+            "latitude": 48.136512,
+            "longitude": 11.581906
+          },
+          "work location": {
+            "latitude": 48.135752,
+            "longitude": 11.580761
+          },
+          "spare time location": {
+            "latitude": 48.136681,
+            "longitude": 11.580643
+          },
+          "weekend activity location": {
+            "latitude": 48.136953,
+            "longitude": 11.580465
+          }
+        }
+      ],
+      "Gmail account": [
+        {
+          "Gmail address": "miroslavmizrac@gmail.com",
+          "Gmail password": "MiroM89!",
+          "Gmail token": "mizrac_gmail.json",
+          "Calendar token": "mizrac_calendar.json",
+          "Signature": "Bye\nMiroslav",
+          "Email partners": {
+            "frediguenther123@gmail.com": "Hello Fredi\n\n"
+          }
+        }
+      ]
+    },
+    {
+      "First name": "Fredi",
+      "Surname": "Guenther",
+      "Birthday": "30.06.1992",
+      "Home phone": "+4915156290197",
+      "Street": "",
+      "Postal code": "",
+      "City": "",
+      "Organisation": "",
+      "Mobile devices": [
+        {
+          "Brand": "Samsung",
+          "Model": "SM-A505FN",
+          "nr of pics": 1,
+          "timeframe start": "2020-09-11T07:59:37.512752Z",
+          "timeframe end": "2021-12-09T19:59:39.512752Z",
+          "individual apks": 0,
+          "Serial number": "R58N2242PNR",
+          "Phone number": "+4915156290197",
+          "x coordinate": 500,
+          "y coordinate": 800,
+          "active times": {
+            "7:00": 780
+          },
+          "working time": {
+            "11:00": 600
+          },
+          "spare time": {
+            "22:00": 180
+          },
+          "weekend activity time": {
+            "10:00": 360
+          },
+          "Whatsapp token": "PERSON_B",
+          "Conversation partners": ["PERSON_A", "PERSON_C", "PERSON_D","PERSON_E"],
+          "typing speed": 0.8,
+          "reading speed": 0.5,
+          "voice message probability": 0.04,
+          "attachment probability": 0.04,
+          "home location": {
+            "latitude": 48.143917,
+            "longitude": 11.574981
+          },
+          "work location": {
+            "latitude": 48.143038,
+            "longitude": 11.578296
+          },
+          "spare time location": {
+            "latitude": 48.142903,
+            "longitude": 11.574975
+          },
+          "weekend activity location": {
+            "latitude": 48.141071,
+            "longitude": 11.576268
+          }
+        }
+      ],
+      "Gmail account": [
+        {
+          "Gmail address": "frediguenther123@gmail.com",
+          "Gmail password": "SuperGeheim1",
+          "Gmail token": "guenther_gmail.json",
+          "Calendar token": "guenther_calendar.json",
+          "Signature": "Bye\nGuenther",
+          "Email partners": {
+            "miroslavmizrac@gmail.com": "Hey Miroslav\n\n"
+          }
+        }
+      ]
+    }
+  ],
+  "Whatsapp groups": [
+    {
+      "Just talking": ["PERSON_A", "PERSON_B"],
+      "group_conversation_path": "<path>"
+    },
+    {
+      "Harry Potter - no muggles": ["PERSON_A", "PERSON_B"],
+      "group_conversation_path": "<path>"
+    }
+  ],
+  "Picture dataset": "",
+  "SM-A405FN": {
+    "Buttons contacts": [
+      "Save",
+      "Phone",
+      "Just once"
+    ],
+    "Contacts store": "com.samsung.android.app.contacts",
+    "Contacts delete": "com.samsung.android.providers.contacts",
+    "Photo names": "%Y%m%d_%H%M%S"
+  },
+  "S20 Lite": {
+    "Buttons contacts": [
+      "Phone"
+    ],
+    "Contacts store": "com.android.contacts",
+    "Contacts delete": "com.android.providers.contacts",
+    "Photo names": "IMG_%Y%m%d_%H%M%S"
+  },
+  "SNE-LX1": {
+    "Buttons contacts": [
+      "OK",
+      "Phone"
+    ],
+    "Contacts store": "com.android.contacts",
+    "Contacts delete": "com.android.providers.contacts",
+    "Photo names": "%Y%m%d_%H%M%S"
+  },
+  "SM-A505FN": {
+    "Buttons contacts": [
+      "Save",
+      "Phone",
+      "Just once"
+    ],
+    "Contacts store": "com.samsung.android.app.contacts",
+    "Contacts delete": "com.samsung.android.providers.contacts",
+    "Photo names": "%Y%m%d_%H%M%S"
+  }
+}
