@@ -27,7 +27,7 @@ class EmailAccount:
     """
 
     def __init__(self, token: str, email_address: str, name: str, signature: str, email_partners: dict):
-        self.token = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'token', token)
+        self.token = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Token', token)
         self.email_address = email_address
         self.name = name
         self.signature = signature
@@ -66,7 +66,7 @@ class EmailAccount:
     def send_mail(self, recipient: str, subject: str, text: str, cc="", bcc="",
                   attachments: list = None) -> None:
         """
-        Send an email to the specified arguments
+        Sends an email to the specified arguments
         :param recipient: Recipient of the email
         :param subject: Subject of the email
         :param text: Text of the email
