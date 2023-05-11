@@ -15,8 +15,8 @@ def random_date(start: datetime, end: datetime) -> datetime:
     :param end: end time
     :return: random datetime
     """
-    start = datetime.strptime(str(start), "%Y-%m-%d %H:%M:%S.%f")
-    end = datetime.strptime(str(end), "%Y-%m-%d %H:%M:%S.%f")
+    start = datetime.strptime(str(start), '%Y-%m-%d %H:%M:%S')
+    end = datetime.strptime(str(end), '%Y-%m-%d %H:%M:%S')
     start_seconds = time.mktime(start.timetuple())
     end_seconds = time.mktime(end.timetuple())
     return start + timedelta(
