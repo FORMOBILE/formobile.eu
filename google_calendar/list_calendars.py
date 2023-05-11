@@ -3,7 +3,7 @@ Module to get all available Calendars of a specified google calendar user
 """
 import logging
 
-from google_calendar.google_calendar.cal_setup import get_calendar_service
+from google_calendar.cal_setup import get_calendar_service
 
 
 def list_calendars(token: str) -> list:
