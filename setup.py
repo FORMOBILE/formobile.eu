@@ -7,8 +7,8 @@ import os
 
 from definitions import CONFIG_PATH
 from gmail.setup_mail import setup_mail
-from google_calendar.google_calendar.cal_setup import get_calendar_service
-from messenger.whatsapp.whatsapp_setup import whatsapp_setup
+from google_calendar.cal_setup import get_calendar_service
+from messenger.whatsapp_setup import whatsapp_setup
 
 logging.basicConfig(
     level=logging.INFO,
