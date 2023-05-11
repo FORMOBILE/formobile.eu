@@ -2,7 +2,7 @@
 /conversations.json
 /messenger/whatsapp/modular_fsm_test/conversations.json
 /venv/
-/Token/
+/Token/*
 /logs/
 /google_calendar/google_calendar/credentials.json
 /gmail/token.json
@@ -12,6 +12,7 @@
 /datasets/pictures/gallery/R58MA2M7C8D/
 /datasets/apps/2c54ddaf37037ece/
 /datasets/apps/HYFDU19823003328/
-/datasets/apps/individual_apps/
+/datasets/apps/individual/*
 /datasets/apps/R58MA2M7C8D/
-/datasets/apps/standard/
+/datasets/apps/standard/*
+/google_calendar/credentials.json
