@@ -6,9 +6,9 @@ import os
 import json
 
 from definitions import CONFIG_PATH, ROOT_DIR
-from google_calendar.google_calendar import write_events
-from google_calendar.google_calendar.clear_calendar import clear_calendar
-from google_calendar.google_calendar.create_event import create_event
+from google_calendar import write_events
+from google_calendar.clear_calendar import clear_calendar
+from google_calendar.create_event import create_event
 
 
 logging.basicConfig(
@@ -29,9 +29,14 @@ def populate_calendar(delete: bool) -> None:
     :return: Nothing
     """
     for person in config['People']:
+
         token_dir = os.path.join(ROOT_DIR, 'Token',
                                  person['Mobile devices'][0]['Whatsapp token'],
                                  person['Gmail account'][0]['Calendar token'])
+
+        if not os.path.isdir(os.path.dirname(token_dir)):
+            os.mkdir(os.path.dirname(token_dir))
+
         events = os.path.join(ROOT_DIR, 'google_calendar', 'events',
                               f"{person['Mobile devices'][0]['Whatsapp token']}.csv")
 
