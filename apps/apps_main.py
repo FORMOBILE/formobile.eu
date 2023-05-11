@@ -33,9 +33,9 @@ def setup_apps(device: ppadb.device.Device) -> None:
             if os.path.exists(individual_apks):
                 install_apks(individual_apks, device)
             else:
-                # change install apks s.t. apps do not need to be copied --> way less storage usage
+                # to do change install apks s.t. apps do not need to be copied --> way less storage usage
                 os.mkdir(individual_apks)
-                copy_apps_to_folder(os.path.join(path, '../datasets/apps/individual_apps'), individual_apks,
+                copy_apps_to_folder(os.path.join(path, '../datasets/apps/individual'), individual_apks,
                                     nr_of_ind_apps)
                 install_apks(individual_apks, device)
 
