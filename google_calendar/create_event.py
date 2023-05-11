@@ -4,7 +4,7 @@ Module to create a new event in google calendar
 import logging
 import os.path
 
-from google_calendar.google_calendar.cal_setup import get_calendar_service
+from google_calendar.cal_setup import get_calendar_service
 
 
 def create_event(token: str, event_data: str, notifications=False, calendar_id='primary') -> dict:
