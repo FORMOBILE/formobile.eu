@@ -177,7 +177,6 @@ def prepare():
         json.dump(dictionary, f)
 
 
-
 def prepare_subreddit(direc: str, mods: list):
     """
     Prepares the conversations dataset and stores it in the subreddit folder.
