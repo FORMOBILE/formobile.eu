@@ -11,13 +11,12 @@ import sys
 import numpy as np
 
 from datetime import datetime, timedelta
-from messenger.whatsapp.modular_fsm_test.whatsapp_fsm import WhatsappFSM
+from messenger.whatsapp_fsm import WhatsappFSM
 from transitions import get_transitions
 from definitions import open_emails
 from ppadb.client import Client
 from definitions import CONFIG_PATH
-from definitions import open_conversations as open_conv, possible_conversations, possible_group_conversations, \
-    possible_email_conversations
+from definitions import open_conversations as open_conv, possible_conversations, possible_group_conversations, possible_email_conversations
 
 
 logging.basicConfig(
@@ -150,27 +149,12 @@ a = Person(config['People'][0], trans_a, whatsapp=WhatsappFSM(config['People'][0
 trans_b = get_transitions(config['People'][1]['Mobile devices'][0]['Whatsapp token'])
 b = Person(config['People'][1], trans_b, whatsapp=WhatsappFSM(config['People'][1], dev[1], trans_b))
 
-trans_c = get_transitions(config['People'][2]['Mobile devices'][0]['Whatsapp token'])
-c = Person(config['People'][2], trans_c, whatsapp=WhatsappFSM(config['People'][2], dev[2], trans_c))
-
-trans_d = get_transitions(config['People'][3]['Mobile devices'][0]['Whatsapp token'])
-d = Person(config['People'][3], trans_d, whatsapp=WhatsappFSM(config['People'][3], dev[3], trans_d))
-
-trans_e = get_transitions(config['People'][4]['Mobile devices'][0]['Whatsapp token'])
-e = Person(config['People'][4], trans_e, whatsapp=WhatsappFSM(config['People'][4], dev[4], trans_e))
-
 threads = []
 try:
     pa = threading.Thread(target=start, args=(a, config['People'][0]))
     threads.append(pa)
     pb = threading.Thread(target=start, args=(b, config['People'][1]))
     threads.append(pb)
-    pc = threading.Thread(target=start, args=(c, config['People'][2]))
-    threads.append(pc)
-    pd = threading.Thread(target=start, args=(d, config['People'][3]))
-    threads.append(pd)
-    pe = threading.Thread(target=start, args=(e, config['People'][4]))
-    threads.append(pe)
 
     for thread in threads:
         thread.start()
