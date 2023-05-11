@@ -12,7 +12,7 @@ import pandas as pd
 from ppadb.client import Client
 from contacts.send_contacts import send_contacts
 from contacts.delete_contacts import delete_contacts
-from contacts.vcard_data import v_card
+from contacts import v_card
 from definitions import CONFIG_PATH
 
 
