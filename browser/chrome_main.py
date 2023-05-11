@@ -31,7 +31,7 @@ for i, dev in enumerate(devices):
         if config['People'][j]['Mobile devices'][0]['Serial number'] == device.serial:
             # Checks which person's (PERSON_A, ...) device
             person = config['People'][j]['Mobile devices'][0]['Whatsapp token']
-            filepath = os.path.join(DATASETS, f'browser_history/{person}')
+            filepath = os.path.join(DATASETS, 'browser', f'{person}')
 
             # Visit every website from list
             t = threading.Thread(target=populate, args=(filepath, device))
