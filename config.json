@@ -1,28 +1,28 @@
 {
   "People": [
     {
-      "First name": "Miroslav",
-      "Surname": "Mizrac",
-      "Birthday": "19.01.1989",
-      "Home phone": "+4915172850154",
+      "First name": "Anna",
+      "Surname": "Kiwi",
+      "Birthday": "",
+      "Home phone": "+420731872724",
       "Street": "",
       "Postal code": "",
       "City": "",
       "Organisation": "",
       "Mobile devices": [
         {
-          "Brand": "Samsung",
-          "Model": "SM-A505FN",
-          "nr of pics": 1,
-          "timeframe start": "2020-09-11T07:59:37.512752Z",
-          "timeframe end": "2021-12-09T16:11:32.512752Z",
-          "individual apks": 2,
-          "Serial number": "R58N225WNHP",
-          "Phone number": "+4915172850154",
-          "x coordinate": 500,
-          "y coordinate": 800,
+          "Brand": "Huawei",
+          "Model": "SNE-LX1",
+          "nr of pics": 2,
+          "timeframe start": "2017-01-12T14:12:06",
+          "timeframe end": "2018-01-12T14:12:06",
+          "individual apks": 0,
+          "Serial number": "HYFDU19823003328",
+          "Phone number": "+420731872724",
+          "x coordinate": 550,
+          "y coordinate": 900,
           "active times": {
-            "7:00": 600
+            "0:00": 1439
           },
           "working time": {
             "11:00": 600
@@ -34,47 +34,48 @@
             "12:00": 360
           },
           "Whatsapp token": "PERSON_A",
-          "Conversation partners": ["PERSON_B", "PERSON_C", "PERSON_D", "PERSON_E"],
+          "Conversation partners": ["PERSON_B"],
           "typing speed": 0.5,
           "reading speed": 0.2,
           "voice message probability": 0.05,
-          "attachment probability": 0.05,
+          "attachment probability": 0.02,
+          "google probability": 0.3,
           "home location": {
-            "latitude": 48.136512,
-            "longitude": 11.581906
+            "latitude": 1,
+            "longitude": 1
           },
           "work location": {
-            "latitude": 48.135752,
-            "longitude": 11.580761
+            "latitude": 2,
+            "longitude": 2
           },
           "spare time location": {
-            "latitude": 48.136681,
-            "longitude": 11.580643
+            "latitude": 3,
+            "longitude": 3
           },
           "weekend activity location": {
-            "latitude": 48.136953,
-            "longitude": 11.580465
+            "latitude": 4,
+            "longitude": 4
           }
         }
       ],
       "Gmail account": [
         {
-          "Gmail address": "miroslavmizrac@gmail.com",
-          "Gmail password": "MiroM89!",
-          "Gmail token": "mizrac_gmail.json",
-          "Calendar token": "mizrac_calendar.json",
-          "Signature": "Bye\nMiroslav",
+          "Gmail address": "a.kiwi1994@gmail.com",
+          "Gmail password": "",
+          "Gmail token": "anna_gmail.json",
+          "Calendar token": "anna_calendar.json",
+          "Signature": "Bye\nAnna",
           "Email partners": {
-            "frediguenther123@gmail.com": "Hello Fredi\n\n"
+            "benjam199695@gmail.com": "Hey Ben\n\n"
           }
         }
       ]
     },
     {
-      "First name": "Fredi",
-      "Surname": "Guenther",
-      "Birthday": "30.06.1992",
-      "Home phone": "+4915156290197",
+      "First name": "Benjamin",
+      "Surname": "",
+      "Birthday": "",
+      "Home phone": "+420731209687",
       "Street": "",
       "Postal code": "",
       "City": "",
@@ -82,17 +83,17 @@
       "Mobile devices": [
         {
           "Brand": "Samsung",
-          "Model": "SM-A505FN",
-          "nr of pics": 1,
-          "timeframe start": "2020-09-11T07:59:37.512752Z",
-          "timeframe end": "2021-12-09T19:59:39.512752Z",
+          "Model": "SM-A405FN",
+          "nr of pics": 0,
+          "timeframe start": "",
+          "timeframe end": "",
           "individual apks": 0,
-          "Serial number": "R58N2242PNR",
-          "Phone number": "+4915156290197",
+          "Serial number": "R58MA2M7C8D",
+          "Phone number": "+420731209687",
           "x coordinate": 500,
           "y coordinate": 800,
           "active times": {
-            "7:00": 780
+            "0:00": 1439
           },
           "working time": {
             "11:00": 600
@@ -101,41 +102,42 @@
             "22:00": 180
           },
           "weekend activity time": {
-            "10:00": 360
+            "12:00": 360
           },
           "Whatsapp token": "PERSON_B",
-          "Conversation partners": ["PERSON_A", "PERSON_C", "PERSON_D","PERSON_E"],
-          "typing speed": 0.8,
-          "reading speed": 0.5,
-          "voice message probability": 0.04,
-          "attachment probability": 0.04,
+          "Conversation partners": ["PERSON_A"],
+          "typing speed": 0.5,
+          "reading speed": 0.2,
+          "voice message probability": 0.05,
+          "attachment probability": 0.02,
+          "google probability": 0.2,
           "home location": {
-            "latitude": 48.143917,
-            "longitude": 11.574981
+            "latitude": 1,
+            "longitude": 1
           },
           "work location": {
-            "latitude": 48.143038,
-            "longitude": 11.578296
+            "latitude": 2,
+            "longitude": 2
           },
           "spare time location": {
-            "latitude": 48.142903,
-            "longitude": 11.574975
+            "latitude": 3,
+            "longitude": 3
           },
           "weekend activity location": {
-            "latitude": 48.141071,
-            "longitude": 11.576268
+            "latitude": 4,
+            "longitude": 4
           }
         }
       ],
       "Gmail account": [
         {
-          "Gmail address": "frediguenther123@gmail.com",
-          "Gmail password": "SuperGeheim1",
-          "Gmail token": "guenther_gmail.json",
-          "Calendar token": "guenther_calendar.json",
-          "Signature": "Bye\nGuenther",
+          "Gmail address": "benjam199695@gmail.com",
+          "Gmail password": "",
+          "Gmail token": "benjamin_gmail.json",
+          "Calendar token": "benjamin_calendar.json",
+          "Signature": "Bye\nBenjamin",
           "Email partners": {
-            "miroslavmizrac@gmail.com": "Hey Miroslav\n\n"
+            "a.kiwi1994@gmail.com": "Hi Anna\n\n"
           }
         }
       ]
@@ -144,11 +146,11 @@
   "Whatsapp groups": [
     {
       "Just talking": ["PERSON_A", "PERSON_B"],
-      "group_conversation_path": "<path>"
+      "group_conversation_path": "/datasets/CasualConversation/group_chats.json"
     },
     {
       "Harry Potter - no muggles": ["PERSON_A", "PERSON_B"],
-      "group_conversation_path": "<path>"
+      "group_conversation_path": "/datasets/harrypotter/group_chats.json"
     }
   ],
   "Picture dataset": "",
