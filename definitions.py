@@ -46,6 +46,8 @@ objects = []
 EMAIL_DATA = os.path.join(os.path.dirname(__file__), 'datasets', 'SeriousConversation', 'email_dataset.json')
 emails = pd.read_json(EMAIL_DATA)
 """
+#temporary fix
+emails = pd.DataFrame
 groups = config['Whatsapp groups']
 
 possible_group_conversations = []
