@@ -12,7 +12,7 @@ These scripts are part of the EU project FORMOBILE. This project has received fu
 The scripts are bundled in `fsm_main.py`. This file defines a Finite State Machine in which the scripts are executed automatically.
 The fsm is as follows:
 
-![transitions.jpg](..%2F..%2FBilder%2Ftransitions.jpg)
+![transitions.jpg](transitions.jpg)
 
 The percentages on the transitions are the transition probabilities that can be manually set in `./messenger/transition_matrix.csv`.
 
