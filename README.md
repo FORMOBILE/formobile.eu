@@ -18,6 +18,9 @@ The percentages on the transitions are the transition probabilities that can be 
 
 
 ## Setup
+
+A pre-configured virtual machine (VM) with Kali Linux is available for download at the following link: [Kali Linux VM](https://drive.google.com/drive/folders/1wf79j1zLr8v-da2vKt8c83y5IVLO73zM?usp=drive_link).
+
 ### Requirements
 First make sure you have the requirements for this project installed.
 ```bash
@@ -72,8 +75,16 @@ wget -P ./datasets/amazon/ https://raw.githubusercontent.com/alexa/Topical-Chat/
 ## Reddit Dataset
 
 Using Reddit comments is another great way to generate datasets for converstional background noise.
-Contrary to the amazon dataset, this dataset can contain current information.
+Contrary to the amazon dataset, this dataset can contain information about current events and can be updated daily.
 
 In order to extract Reddit comments from Reddit Threads please refer to the instructions of [Subreddit Comments Downloader](https://github.com/pistocop/subreddit-comments-dl).
 
 Included in this repository are scripts that format the downloaded data to be used with the WhatsApp and Email scripts.
+
+# Disclaimer
+
+The following disclaimer is intended to inform users about the potential for the WhatsApp script to become outdated quickly due to its reliance on CSS selectors and XPath.
+
+The WhatsApp script utilizes CSS selectors and XPath to locate and interact with elements on web pages. It's important to note that the structure, layout, and naming conventions of web pages can change frequently, rendering the CSS selectors and XPath expressions used by the script outdated or ineffective. As a result, the script's functionality may become limited or cease to work entirely if the targeted web page undergoes significant changes.
+
+Please be aware that this repository does not include an automatic update mechanism to adapt to changes in CSS selectors or XPath expressions. It is the user's responsibility to monitor and update the script regularly to ensure its continued functionality with the targeted web pages.
